@@ -127,42 +127,146 @@ transform: translateY(-50%);
 
 .popular-sites {
 
-    list-style: none;
+list-style: none;
     
-    padding-left: 0;
+padding-left: 0;
     
-    }
+}
     
-    .popular-sites li {
+.popular-sites li {
     
-    position: relative;
+position: relative;
     
-    padding-left: 30px;
+padding-left: 30px;
     
-    line-height: 170%;
+line-height: 170%;
     
-    }
+}
     
-    .popular-sites li:before {
+.popular-sites li:before {
     
-    content: '';
+content: '';
     
-    width: 20px;
+width: 20px;
     
-    height: 20px;
+height: 20px;
     
-    position: absolute;
+position: absolute;
     
-    background-image: url('instagram.png');
+background-image: url('instagram.png');
     
-    background-size: cover;
+background-size: cover;
     
-    background-position: center;
+background-position: center;
     
-    left: 0;
+left: 0;
     
-    top: 50%;
+top: 50%;
     
-    transform: translateY(-50%);
+transform: translateY(-50%);
     
-    }
+}
+
+table, td, th {
+
+border: 1px solid black;
+border-collapse: collapse;
+        
+}
+
+th, td {
+padding: 15px;
+text-align: center;
+}
+
+
+caption {
+
+caption-side: top;
+            
+text-align: center;
+            
+font-style: italic;
+            
+font-weight: bolder;
+            
+color: rgb(63, 37, 133);
+            
+}
+
+.table-simple th {
+
+background-color: rgb(219, 183, 20);
+                
+color: rgb(221, 19, 160);
+                
+}
+                
+.table-simple tr:nth-child(even) {
+                
+background-color: #b81818;
+                
+}
+                
+.table-simple tr:nth-child(odd) {
+                
+background-color: rgb(51, 179, 19);
+                
+}
+                
+.table-simple tr:hover {
+                
+background-color: #6516a5;
+                
+}
+
+.table-simple tr {
+background-image: linear-gradient(to right, purple, green);
+color: gold;
+}
+
+.head-body-foot thead {
+
+color: purple;
+                    
+background-color: rgb(243, 136, 13);
+                    
+}
+                    
+.head-body-foot tbody {
+                    
+color: rgb(182, 212, 182);
+                    
+font-weight: bold;
+                    
+background-color: rgb(68, 39, 177);
+                    
+}
+                    
+.head-body-foot tfoot {
+                    
+color: rgb(5, 4, 0);
+                    
+background-color: rgb(227, 231, 233);
+                    
+font-weight:bold ;
+                    
+}
+
+.head-body-foot thead:hover {
+
+background-color: #e20d9b;
+                        
+}
+
+.head-body-foot tbody:hover {
+
+background-color: #e27319;
+                            
+}
+
+.head-body-foot tfoot:hover {
+
+background-color: #3d0bc5;
+    
+}
