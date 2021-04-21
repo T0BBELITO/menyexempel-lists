@@ -270,3 +270,22 @@ background-color: #e27319;
 background-color: #3d0bc5;
     
 }
+
+.scroll-bar {
+    overflow-x: auto;
+}
+
+.many-columns th, .many-columns td {
+    box-shadow: 1px 1px 20px black;
+    border-width: 2px;
+    padding: 15px;
+
+}
+
+.table-image {
+
+    margin: 0 auto;
+    
+}
+
+
